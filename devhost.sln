@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevHost", "DevHost\DevHost.csproj", "{2B447607-3CFE-4772-9441-61490EDF06F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonacoRoslynCompletionProvider", "MonacoRoslynCompletionProvider\MonacoRoslynCompletionProvider.csproj", "{84F5C033-C5D3-4B5E-B074-4965123283EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{2B447607-3CFE-4772-9441-61490EDF06F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B447607-3CFE-4772-9441-61490EDF06F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B447607-3CFE-4772-9441-61490EDF06F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84F5C033-C5D3-4B5E-B074-4965123283EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84F5C033-C5D3-4B5E-B074-4965123283EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84F5C033-C5D3-4B5E-B074-4965123283EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84F5C033-C5D3-4B5E-B074-4965123283EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

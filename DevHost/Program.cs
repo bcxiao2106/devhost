@@ -16,9 +16,17 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+app.UseCors("AllowAllOrigins");
 
-app.UseAuthorization();
+var webSocketOptions = new WebSocketOptions
+{
+    KeepAliveInterval = TimeSpan.FromHours(2)
+};
+app.UseWebSockets(webSocketOptions);
+
+// app.UseHttpsRedirection();
+
+// app.UseAuthorization();
 
 app.MapControllers();
 
